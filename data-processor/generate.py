@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from os.path import dirname, join
 import csv
 from matplotlib import pyplot as plot
+import argparse
 
 @dataclass
 class CsvData:
@@ -29,7 +30,7 @@ class SwitchMeta:
     name: str
     type: str # Either "linear", "tactile" or "clicky"
 
-def do_directory_walk():
+def do_directory_walk(generate_images: bool):
     print(__file__)
     this_dir = dirname(__file__.replace("/./", "/"))
     print(this_dir)
@@ -41,15 +42,12 @@ def do_directory_walk():
     savedir = join(this_dir, "image_output")
     savedir_csv = join(this_dir, "csv_output")
 
-    if not os.path.exists(savedir):
+    if not os.path.exists(savedir) and generate_images:
         os.mkdir(join(this_dir, "image_output"))
         print("Created image output directory")
     if not os.path.exists(savedir_csv):
         os.mkdir(join(this_dir, "csv_output"))
         print("Created CSV output directory")
-
-    markdown_file = open(join(savedir, "000_curves.md"), "w")
-    markdown_file.write("From [ThereminGoat](https://github.com/ThereminGoat/force-curves)\n\n")
 
     all_switches = []
 
@@ -78,13 +76,19 @@ def do_directory_walk():
 
         all_switches.append(switch_dir_name)
 
-        create_image(savedir, switch_dir_name, switch_data)
         create_csv_files(savedir_csv, switch_dir_name, switch_data)
 
-        escaped_filename = urllib.parse.quote(switch_dir_name)
-        markdown_file.write("### %s\n\n![%s](%s.png)\n\n" % (switch_dir_name, switch_dir_name, escaped_filename))
+        if generate_images:
+            create_image(savedir, switch_dir_name, switch_data)
 
-    markdown_file.close()
+    # If generating the images, also generate the markdown file
+    if generate_images:
+        with open(join(savedir, "000_curves.md"), "w") as markdown_file:
+            markdown_file.write("From [ThereminGoat](https://github.com/ThereminGoat/force-curves)\n\n")
+
+            for switch_name in all_switches:
+                escaped_filename = urllib.parse.quote(switch_name)
+                markdown_file.write("### %s\n\n![%s](%s.png)\n\n" % (switch_name, switch_name, escaped_filename))
 
     switch_metadatas = []
     with open(join(this_dir, "switchmeta.csv"), "r") as switch_meta_file:
@@ -225,5 +229,8 @@ def create_csv_files(savedir: str, name: str, data: SwitchData):
     write_csv_data_file(upstroke_file, data.upstroke)
 
 if __name__ == "__main__":
-    do_directory_walk()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--generate-images", action=argparse.BooleanOptionalAction)
+    parsed = parser.parse_args()
+    do_directory_walk(parsed.generate_images)
 
