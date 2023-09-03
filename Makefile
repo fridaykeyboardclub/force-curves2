@@ -21,5 +21,5 @@ clean-deps: clean
 	rm -rf data-processor/venv/
 	rm -rf force-curves-site/node_modules/
 
-clean-docs: clean
+clean-docs:
 	rm -rf docs
