@@ -52,6 +52,7 @@ export default {
       selected: [] as SwitchMeta[],
       showUpstroke: false,
       switchData: null as SwitchCurves[] | null,
+      zoom: 100,
     }
   },
   methods: {
@@ -98,6 +99,9 @@ export default {
             enabled: false,
           },
         },
+        animation: {
+          duration: 300,
+        },
         elements: {
           point: {
             radius: 0,
@@ -113,7 +117,7 @@ export default {
           },
           y: {
             min: 0,
-            max: 100,
+            max: this.zoom,
             ticks: {
               stepSize: 20,
             },
@@ -133,7 +137,13 @@ export default {
         else if (!self.showOthers && metaItem.type != "linear" && metaItem.type != "clicky" && metaItem.type != "tactile") return false
         else return true
       })
-    }
+    },
+    adjustZoom(amount: number) {
+      const newZoom = this.zoom + amount
+      if (newZoom >= 60 && newZoom <= 260) {
+        this.zoom = newZoom
+      }
+    },
   },
   mounted() {
     console.log("Started switch selector component")
@@ -176,10 +186,16 @@ export default {
       <input id="upstroke" type="checkbox" v-model="showUpstroke" />
     </div>
 
-    <button @click="doCompare">Compare</button>
+    <div>
+      <button @click="doCompare">Compare</button>
+    </div>
   </div>
 
   <div id="chart">
+    <div id="zoom-buttons">
+      <button @click="adjustZoom(-20)">Zoom In</button>
+      <button @click="adjustZoom(20)">Zoom Out</button>
+    </div>
     <Scatter
       v-if="switchData != null"
       :data="switchCurvesToChartJs()" 
@@ -206,6 +222,10 @@ export default {
 #switch-selection input[type=checkbox] {
   margin-left: 1ex;
   margin-right: 1ex;
+}
+
+#zoom-buttons {
+  float: right;
 }
 
 </style>
