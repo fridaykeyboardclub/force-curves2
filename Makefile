@@ -1,7 +1,5 @@
 
 all: curve-data site
-	mkdir -p docs/
-	cp -r force-curves-site/dist/* docs/
 
 curve-data:
 	$(MAKE) -C data-processor csv
@@ -9,8 +7,10 @@ curve-data:
 	cp -r data-processor/csv_output force-curves-site/public/data/
 	cp data-processor/switchmeta.csv force-curves-site/public/data/
 
-site: curve-data
+site:
+	mkdir -p docs/
 	cd force-curves-site; npm install; npm run build
+	cp -r force-curves-site/dist/* docs/
 
 clean:
 	$(MAKE) -C data-processor clean

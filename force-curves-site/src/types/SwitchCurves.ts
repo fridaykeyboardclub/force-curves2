@@ -1,6 +1,8 @@
 import { parse } from 'csv-parse/browser/esm/sync'
 import axios from 'axios';
 
+const basePath = "/force-curves2"
+
 export interface SwitchCurves {
   name: string;
   downstroke: SwitchCurve;
@@ -25,7 +27,7 @@ export class SwitchMeta {
 }
 
 export async function getSwitchMetaData(): Promise<SwitchMeta[]> {
-  const csvresponse = await axios.get("/data/switchmeta.csv")
+  const csvresponse = await axios.get(basePath + "/data/switchmeta.csv")
   const parsedArrays = parse(csvresponse.data, {
     columns: false,
     skip_empty_lines: true,
@@ -52,7 +54,7 @@ export async function getCurveData(name: string, showUpstroke: boolean): Promise
   console.log(`Getting data for ${name} downstroke`)
   const downstrokeCurve = curveDataToCurve(
     name,
-    (await axios.get(`/data/csv_output/${name}.downstroke.csv`)).data,
+    (await axios.get(`${basePath}/data/csv_output/${name}.downstroke.csv`)).data,
     true
   )
 
@@ -61,7 +63,7 @@ export async function getCurveData(name: string, showUpstroke: boolean): Promise
     console.log(`Getting data for ${name} downstroke`)
     upstrokeCurve = curveDataToCurve(
       name,
-      (await axios.get(`/data/csv_output/${name}.upstroke.csv`)).data,
+      (await axios.get(`${basePath}/data/csv_output/${name}.upstroke.csv`)).data,
       false
     )
   }
