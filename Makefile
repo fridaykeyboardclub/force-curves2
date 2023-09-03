@@ -7,7 +7,7 @@ curve-data:
 	cp -r data-processor/csv_output force-curves-site/public/data/
 	cp data-processor/switchmeta.csv force-curves-site/public/data/
 
-site:
+site: clean-docs
 	mkdir -p docs/
 	cd force-curves-site; npm install; npm run build
 	cp -r force-curves-site/dist/* docs/

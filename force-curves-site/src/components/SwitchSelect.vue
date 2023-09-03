@@ -109,6 +109,10 @@ export default {
         },
         scales: {
           x: {
+            title: {
+              display: true,
+              text: "Travel (mm)",
+            },
             min: 0,
             max: 4.5,
             ticks: {
@@ -116,6 +120,10 @@ export default {
             },
           },
           y: {
+            title: {
+              display: true,
+              text: "Force (gf)",
+            },
             min: 0,
             max: this.zoom,
             ticks: {
