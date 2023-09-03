@@ -1,4 +1,1 @@
 *.iml
-/data-processor/venv
-/data-processor/csv_output
-/data-processor/image_output

@@ -1,6 +1,6 @@
 
 csv:
-	./generate.py
+	env VIRTUAL_ENV=./venv venv/bin/python3 generate.py
 
 images:
 	./generate.py --generate-images
