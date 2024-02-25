@@ -14,14 +14,18 @@ Aflion Iceberg Teal V2,linear
 Aflion Iceberg Yellow V2,linear
 Aflion Tropical Waters,linear
 Agile Moon,linear
+Ajazz AS 001 Red,linear
 Ajazz AS Coral Pink,linear
 Ajazz AS Foggy Mountain Green,linear
 Ajazz AS Royal Yellow,linear
 Ajazz AS Sky Blue,tactile
+Ajazz Black (Black Bottom),linear
+Ajazz Blue (Black Bottom),clicky
 "Ajazz Brown (Clear Top, Black Bottom)",tactile
 Ajazz Doyu Orange,tactile
 Ajazz Doyu White,linear
 Ajazz Purple,clicky
+Ajazz Purple (Black Bottom),clicky
 Ajazz x Huano Banana,tactile
 Ajazz x Huano Peach,linear
 Akko Air,linear
@@ -37,28 +41,40 @@ Akko CS Sponge,tactile
 Akko CS Starfish,linear
 Akko CS Vintage White,linear
 Akko CS Wine White,tactile
+Akko Cream Black V3 Pro,linear
 Akko Crystal,linear
 Akko Crystal Blue,linear
 Akko Crystal Silver,linear
 Akko Crystal Wine Red,linear
+Akko Cyrstal V3 Pro,linear
 Akko Haze Pink,linear
+Akko Ice Cream Pink,linear
+Akko Ice Cream Purple,linear
+Akko Lavender Purple V3 Pro,tactile
+Akko Matcha Green V3 Pro,linear
 Akko Orange V1,tactile
 Akko POM Brown,tactile
 Akko POM Pink,linear
 Akko POM Silver,linear
 Akko Piano,linear
+Akko Piano V3 Pro,linear
+Akko Silver V3 Pro,linear
 Akko Snow Blue Grey,linear
 Akko V3 Cream Blue,tactile
 Akko V3 Cream Blue Pro,tactile
 Akko V3 Cream Yellow,linear
 Akko V3 Cream Yellow Pro,linear
 Akko Wine Red,linear
+Akko x Gateron White,linear
+Akko x Gateron Yellow,linear
 All Clack,tactile
 AngryMiao Cyberswitch,tactile
 Aristotle White,clicky
 Asus Rog NX Blue,clicky
 Asus Rog NX Brown,tactile
 Asus Rog NX Red,linear
+Attack Shark White,linear
+Attack Shark Yellow,linear
 BBN (Tactile),tactile
 BBN Linear,linear
 BSUN 5 Pin Blue Panda,linear
@@ -72,6 +88,7 @@ BSUN Crystal Light Blue,linear
 BSUN Crystal White,linear
 BSUN Dragon Fruit Panda V2,tactile
 BSUN Dustproof Blue,clicky
+BSUN Dustproof Brown (White Bottom),tactile
 BSUN Ginseng Fruit,tactile
 BSUN Guyu,linear
 BSUN Light Switch,clicky
@@ -89,6 +106,10 @@ BSUN Yellow (Clear_White),linear
 Banana Milk Linear Factory Sample,linear
 Banana Milk Tactile,tactile
 Banana Milk Tactile Factory Sample,tactile
+Batknight Black,linear
+Batknight Blue,clicky
+Batknight Red,linear
+Batknight Split Front Green,clicky
 Betty,tactile
 Bingsu POM,linear
 Black Cherry Pie,linear
@@ -100,10 +121,12 @@ Bobagum (62g),linear
 Bolsa Namazu,linear
 Bonbonera POM Pink,linear
 Brazilian Iron,linear
+Buri Diamond,linear
 C&K Black,linear
 C3 Equalz Tangerine V2 (62g),linear
 C3 Kiwi,tactile
 CHAOSERA Klein,linear
+CIDOO Matte,linear
 CIY Evo Purple S,tactile
 CIY Evo Red S,linear
 CIY Evolution Red,linear
@@ -136,6 +159,7 @@ Cherry MX Hyperglide Brown,tactile
 Cherry MX Jailhouse Blue,tactile
 Cherry MX Linear Grey,linear
 Cherry MX Lock,special
+Cherry MX Purple,tactile
 Cherry MX RGB Black,linear
 Cherry MX Red,linear
 Cherry MX Tactile Grey,tactile
@@ -163,14 +187,23 @@ Clickiez 75g Linear,linear
 Clickiez 75g Tactile,tactile
 Clunked Corsa,tactile
 Commute,linear
+Content Blue (Black Bottom),clicky
 Cookies n' Cream,tactile
 Corsa,tactile
 Cotton Candy,tactile
 Crow,linear
+DK Creamery Birthday Cake Blue,tactile
+DK Creamery Birthday Cake Green,tactile
+DK Creamery Birthday Cake Orange,tactile
+DK Creamery Birthday Cake Pink,tactile
+DK Creamery Birthday Cake Yellow,tactile
 DK Creamery Blueberry Swirl,linear
 DareU Candy Pink V1,linear
+DareU Dream Encounter,linear
+DareU Firefly,tactile
 DareU Mahjong,linear
 DareU Sky Blue V3,linear
+DareU Sky Blue V4,linear
 DareU Sky V2,linear
 DareU Violet Gold Pro,tactile
 DareU Violet_Purple Gold V2,tactile
@@ -181,7 +214,13 @@ Designer Studio Retro Light Red,linear
 Designer Studio Starry,linear
 Designer Studio Taoyao,linear
 Diamond Avalon,linear
+Domikey x Glove Chocolate Donut Blue,linear
+Domikey x Glove Chocolate Donut Green,linear
+Domikey x Glove Chocolate Donut Orange,linear
+Domikey x Glove Chocolate Donut Pink,linear
+Domikey x Glove Chocolate Donut Purple,linear
 Doom Tactile,tactile
+Drinkey Green,clicky
 Drop Holy Panda X Clear (3 Pin),tactile
 Drop Holy Panda X Clear (5 Pin),tactile
 Durock Black Lotus (63.5g),linear
@@ -204,14 +243,22 @@ Epomaker Bluebird,linear
 Epomaker Budgreigar,tactile
 Epomaker Comte,linear
 Epomaker Flamingo,linear
+Epomaker Wisteria Linear,linear
+Epomaker Wisteria Tactile,tactile
 Epsilon V2,linear
+Equalz Blueberry Toffee,linear
+Equalz Grapefruit Gummy,linear
+FADOG Absolute Purple,linear
 FLCMMK Bauhinia,linear
 FLCMMK Box Rosa Pink,linear
 FLCMMK Green Glacier,clicky
 FLCMMK Ice Mint,linear
+FLCMMK Ice Mint V2,linear
+FLCMMK Ice Silver,linear
 FLCMMK Pink Glacier,linear
 FLCMMK Purple Glacier,tactile
 Factory Defect SP Star Meteor White,linear
+Feker Emerald Cabbage,linear
 Feker Emerald Yellow,linear
 Feker Matcha,linear
 Feker White Marble,linear
@@ -225,12 +272,17 @@ G-Square Dreamland Linear,linear
 G-Square Dreamland Tactile,tactile
 G-Square White Warrior,linear
 Gamakay Griffin,tactile
+Gamakay Jupiter,linear
+Gamakay Mars,tactile
+Gamakay Mercury,linear
 Gamakay Pegasus,tactile
+Gamakay Venus,tactile
 Ganss Lunar Blue,tactile
 Ganss Lunar Grey,linear
 Gateron Azure Dragon V2,tactile
 Gateron Baby Kangaroo,tactile
 Gateron Baby Racoon,linear
+Gateron Beer,tactile
 Gateron Box Ink Pink,linear
 Gateron CAP Yellow V2,linear
 Gateron CJ Light Blue,linear
@@ -260,6 +312,7 @@ Gateron Limbo,tactile
 Gateron Lion,linear
 Gateron Low Profile Brown 2.0,tactile
 Gateron Luciola,linear
+Gateron Melodic,clicky
 Gateron Mini,linear
 Gateron Mink,linear
 Gateron Mizu Mink,linear
@@ -342,7 +395,12 @@ Invokeys Blueberry Chiffon HDPE Prototype R1,tactile
 Invokeys Blueberry Chiffon Prototype R1,tactile
 Invokeys Blueberry Chiffon Prototype R2,tactile
 Invokeys Matcha Latte,linear
+Invokeys Purple Rice,linear
+Invokeys Red Bean,linear
+Invokeys x Alas Daydreamer,tactile
 Invyr Holy Panda,tactile
+JKDK Crimson,tactile
+JKDK x XCJZ Hillstone,tactile
 JKLP Holy Panda,tactile
 JWICK Ginger Milk,linear
 JWICK Ice White,linear
@@ -361,8 +419,10 @@ JWK DIE FOR ME,linear
 JWK F1,linear
 JWK Pink-Jade,linear
 JWK PointWorks Purple,linear
+JZS Rusty Axis Paradox,linear
 Jerrzi Black,linear
 Jerrzi Blue,clicky
+Jerrzi Blue (Clear Bottom),clicky
 Jerrzi Brown,tactile
 Jerrzi Coral,linear
 Jerrzi Dustproof Clear,linear
@@ -381,7 +441,13 @@ Jerrzi Red,linear
 Jerrzi Seashell,linear
 Jerrzi Violet,tactile
 Jerrzi Yellow,linear
+Jixian Black (White Bottom),linear
 Jixian Blue,clicky
+Jixian Blue (White Bottom),clicky
+Jixian Brown (White Bottom),tactile
+Jixian Dustproof Silver (White Bottom),linear
+Jixian Dustproof Yellow (White Bottom),linear
+Jixian Red (White Bottom),linear
 Joininkeys Jade Rabbit,linear
 KFA Lubed Pink Robin,linear
 KFA N2O Laughing Gas,linear
@@ -427,7 +493,10 @@ KTT Reccazr KU Brown,tactile
 KTT Reccazr KU Orange,linear
 KTT Soot,tactile
 KTT Strawberry,linear
+KTT Strawberry V1 (Logo),linear
+KTT Vanilla Ice Cream,linear
 KTT Waverider,tactile
+KZZI Encounter,linear
 Kailh Arctic Fox,clicky
 Kailh Arctic Fox V2,clicky
 Kailh Box Ancient Grey,linear
@@ -437,6 +506,7 @@ Kailh Box Cotton Candy,clicky
 Kailh Box Ice Mint,linear
 Kailh Box Jade,clicky
 Kailh Box Marshmallow,linear
+Kailh Box Marshmallow Tactile,tactile
 Kailh Box Navy,clicky
 Kailh Box Speed Ultimate,linear
 Kailh Box Strawberry Ice Cream,linear
@@ -480,6 +550,8 @@ Kailh Speed Silver (Plate Mount),linear
 Kailh Sunset Tactile Choc,tactile
 Kailh Super Speed Red,linear
 Kailh Super Speed Silver,linear
+Kailh Turbo Silent Red,linear
+Kailh Turbo Silver,linear
 Kailh White Owl,clicky
 Kailh x Varmilo Prestige Blue,clicky
 Kailh x Varmilo Prestige Red,linear
@@ -501,6 +573,7 @@ Kono Sunrise,tactile
 Kono Sunset,linear
 LCET Black (Black Bottom),linear
 LCET Brown (Black Bottom),tactile
+LCET Ice Clear,linear
 LCET Moonlit Night,linear
 LCET Sea Night,tactile
 LCET Wujing,linear
@@ -512,15 +585,22 @@ Lelelab Y2K,tactile
 Leobog Ashwood,linear
 Leobog Ashwood V2,linear
 Leobog Ashwood V3,linear
+Leobog Ashwood V4,linear
 Leobog Black,linear
+Leobog Ice Blue,clicky
 Leobog Ice Soul,tactile
+Leobog Ink Crystal V3,tactile
 Leobog Juggle,tactile
 Leobog Juggle V2,tactile
 Leobog Kayking,linear
+Leobog Kayking V2,linear
 Leobog Kayking V3,linear
 Leobog Leek_Chive,linear
+Leobog Leek_Chive V2,linear
 Leobog Nimbus,linear
 Leobog Nimbus V2,linear
+Leobog Nimbus V3,linear
+Leobog Purple King,linear
 Leobog Rock,linear
 Leobog Standard Brown,tactile
 Leobog Wolfberry,linear
@@ -546,6 +626,7 @@ MOD-SH,linear
 MODE Anthracite,tactile
 MODE Anthracite Prototype,tactile
 MODE Obscura,linear
+MODE Obscura (Alexotos Edition),linear
 MODE Obscura Prototype,linear
 MODE Reflex,linear
 MODE Signal,tactile
@@ -559,12 +640,15 @@ MODE Tomorrow Purple,tactile
 MODE Tomorrow Purple Prototype,tactile
 MODE Tomorrow Yellow,tactile
 MODE Tomorrow Yellow Prototype,tactile
+Magegee Blue Whale,linear
+Magegee White Elephant,tactile
 Malvix Studio Irene,linear
 Mamba,linear
 Matcha Bamboo Shoot,linear
 Meirun Orange Sample,linear
 Meirun Red Sample,linear
 Mekanisk Ultramarine V2,linear
+Melgeek Plastic,linear
 Melon Milk Linear,linear
 Melon Milk Tactile,tactile
 Mint Chocolate Chip POM,tactile
@@ -617,6 +701,7 @@ Oooolong,linear
 Opblack,linear
 Outemu Autumn,tactile
 Outemu Bai Lan,linear
+Outemu Blue (Black Housing),clicky
 Outemu Cream Green,linear
 Outemu Cream Top Milk Green,clicky
 Outemu Cream Top Milk Peach,linear
@@ -634,6 +719,7 @@ Outemu Milk Tea,tactile
 Outemu Ocean Silent Dustproof Linear,linear
 Outemu Ocean Silent Linear,linear
 Outemu Peach V2,linear
+Outemu Red (Black Housing),linear
 Outemu Smoky Blue,linear
 Outemu Smoky Red,linear
 Outemu Spring,clicky
@@ -644,6 +730,11 @@ Owlabs Neon,linear
 Oxford Micro Orange,clicky
 Penguin (Lubed),tactile
 Philikey Blue and White,linear
+Philikey Rainbow Blue,linear
+Philikey Rainbow Pink,linear
+Philikey Rainbow Red,linear
+Philikey Rainbow White,linear
+Philikey Rainbow Yellow,linear
 Philikeys Pink,linear
 Philikeys White,tactile
 Pink 43Studio Prototype,linear
@@ -665,20 +756,39 @@ RAMA WORKS Duck Sample 2,linear
 RK Celadon,linear
 RK Golden Purple,linear
 RK Latte,linear
+RK Pink,linear
 RK Sakura,linear
 RK Sea Blue,linear
 RK White,tactile
+RK Yellow,linear
 Raed V2,linear
+Raininkeys Karman Line Blue,linear
+Raininkeys Karman Line Raw,linear
+Rapoo Black (Black Bottom),linear
+Rapoo Black (White Bottom),linear
 Rapoo Yellow,linear
+Razer RGB Dustproof Green,clicky
+Razer RGB Dustproof Orange,tactile
+Razer RGB Dustproof Yellow,linear
+Readson K Yellow,linear
 Red Jacket,linear
+Redragon Bean,linear
+Redragon Carnation,tactile
 Redragon Crystal Panda,tactile
+Redragon Cypress,tactile
+Redragon Maple,linear
 Redragon Panda,tactile
+Redragon Rose,linear
 Redragon Sapphire,tactile
+Redragon Stars,tactile
 Redragon Thin Lemon,linear
 Rococo Tactile,tactile
 Rubrehose Brown,linear
 Rubrehose Grey,linear
 S1 Peaches,linear
+SMK J-M0404 Short Upright Stem,linear
+SMK J-M0404 Stemless,linear
+SMK J-M0432 Short Dummy Switch,linear
 SOTC,linear
 SP Star Meteor Grey (Grey Housing),linear
 SP Star Meteor Orange (Grey Housing),tactile
@@ -695,6 +805,8 @@ Silent Alpaca,linear
 Silent Blue Macaw,tactile
 Silent Coral,linear
 Skyloong Brown Iceberg,tactile
+Skyloong Chocolate Lemon,linear
+Skyloong Chocolate Rose,tactile
 Skyloong Pink Iceberg,tactile
 Skyloong Red Iceberg,linear
 Skyloong Silent Brown Iceberg,tactile
@@ -717,6 +829,7 @@ TKC Blackberry,clicky
 TTC Ace V1.5,linear
 TTC Ace V2,linear
 TTC Bluish White (Full Silent),tactile
+TTC Camo,tactile
 TTC Chaotic Panda,tactile
 TTC Cloud V2,linear
 TTC Cyber Panda,tactile
@@ -736,6 +849,8 @@ TTC MT Blue,clicky
 TTC MT Red,linear
 TTC Matrix 01 Linear,linear
 TTC Matrix 01 Tactile,tactile
+TTC Mini Purple,linear
+TTC Mini White,clicky
 TTC NCR V2,linear
 TTC Neptune,linear
 TTC Old School,linear
@@ -766,6 +881,7 @@ TeamWolf Red,linear
 TeamWolf x Manic Red,linear
 Techno Violet V1,linear
 Tecsee Coral,tactile
+Tecsee Honey Peach,linear
 Tecsee Ice Milk Tactile,tactile
 Tecsee Lake Blue,linear
 Tecsee Middle Switch Linear,linear
@@ -789,11 +905,15 @@ U4TX Plum,tactile
 Ube Crinkle Cookie,linear
 Unlabeled Invokeys Matcha Latte V2 Prototype,linear
 Unlubed Invokeys Blueberry Chiffon,tactile
+Varmilo Daisy L,linear
 Varmilo EC V2 Iris,tactile
 Varmilo EC V2 Jasmine,linear
 Varmilo EC V2 Moxa,linear
 Varmilo EC V2 Orange,linear
 Varmilo EC V2 Violet,tactile
+Varmilo Prestige Light,linear
+Varmilo Prestige Red V2,linear
+Varmilo Prestige Silent,linear
 Vertex V1 (Unlubed),linear
 WS Aurora Blue (Unlubed),linear
 WS Aurora Clear (Unlubed),linear
@@ -810,12 +930,15 @@ Wuque Studio Morandi,linear
 XCJZ Jerrzi Lotus Stem,clicky
 YOK EMT V1,linear
 Zaku (Nameplate),linear
+Zaku II,tactile
 Zealio V1 Redux 62g,tactile
 Zealio V2 AC (62g),tactile
 Zealio V2 AC (78g),tactile
 Zepsody Bluebonnet,linear
+Zorro Black (Black Bottom),linear
 Zorro Black (White Bottom),linear
 Zorro Blue (White Bottom),clicky
 Zorro Brown (White Bottom),tactile
+Zorro Purple (Black Bottom),clicky
 Zorro Red (White Bottom),linear
 dk Oni,linear
