@@ -171,12 +171,12 @@ export default {
     <div>
       <label for="hideLinear">Show Linear</label>
       <input id="hideLinear" type="checkbox" v-model="showLinear" />
-      <label for="hideLinear">Show Tactile</label>
-      <input id="hideLinear" type="checkbox" v-model="showTactile" />
-      <label for="hideLinear">Show Clicky</label>
-      <input id="hideLinear" type="checkbox" v-model="showClicky" />
-      <label for="hideLinear">Show Others</label>
-      <input id="hideLinear" type="checkbox" v-model="showOthers" />
+      <label for="hideTactile">Show Tactile</label>
+      <input id="hideTactile" type="checkbox" v-model="showTactile" />
+      <label for="hideClicky">Show Clicky</label>
+      <input id="hideClicky" type="checkbox" v-model="showClicky" />
+      <label for="hideOther">Show Others</label>
+      <input id="hideOther" type="checkbox" v-model="showOthers" />
     </div>
     <div>
       <VueMultiselect
